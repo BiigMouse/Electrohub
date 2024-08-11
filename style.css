@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box
 }
+body{
+    font-family: 'poppins', san-seriff;  
+}
 .navbar{
     display: flex;
     align-items: center;
@@ -61,5 +64,8 @@ p{
     border-radius: 30px;
  }
 .header{
-    background:  radial-gradient(#fff,#ff7575);
+    background:  radial-gradient(#fff,#9367f8);
+}
+.header .row{
+    margin-top: 70px;
 }
